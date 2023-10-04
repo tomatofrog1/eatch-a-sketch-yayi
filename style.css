@@ -1,7 +1,12 @@
-.container>div>div {
+.grid>div>div {
     width: 2rem; 
     height: 2rem; 
     border: 1px solid gray; 
+
+}
+
+.grid {
+    display: flex;
 
 }
 
@@ -10,3 +15,7 @@
     justify-content: center;
 }
 
+.inputs {
+    display: flex;
+    align-items: center;
+}
